@@ -1,0 +1,218 @@
+head:
+  title: "Abdelhakim Mohamed's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Abdelhakim Seddik."
+  subtitle: "Data Scientist"
+  description: "Abdelhakim is a junior data scientist with great technical and economical skills, he can manage a project from the problem to the data product. Moreover, he speaks three languages, French, English and Arabic."
+  image:
+    x: "img/showcase/data_home.gif"
+    _2x: "img/showcase/data_home.gif"
+  imageMobile:
+    x: "img/showcase/data_home.gif"
+    _2x: "img/showcase/data_home.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Me"
+    URL: "mailto:midou.ik.1999@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/abdelhakim-mohamed-seddik-a70474194/"
+
+    - icon: "github"
+      URL: "https://github.com/medseddik1999"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com"
+
+    
+    
+
+    
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I'm an early career junior data scientist, programming applications and APIs based on data and artificial intelligence.
+     My favorite languages are R and Python. Although, I have good knowledge on data management and data migration tools. </strong> 
+     My passion is Coding and Gym . But, when I am not Coding 
+    or going to Gym, I enjoy a Beer with my friends or I travel to meet new people. 
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is to apply data science to business and finance. 
+    I create value for business by understanding problems and areas of improvement. and providing a return on investment with my solutions. 
+    I enjoy learning, working with nice people, and making better decisions with data  .
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: ""
+  image:
+    x: "img/who-am-i/profile_photo.jpg"
+    _2x: "img/who-am-i/profile_photo.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I am at the beginning of my career as a data scientist but I have other experiences that have helped me to collaborate with my managers and colleagues "
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/abdelhakim-mohamed-seddik-a70474194/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "cv/CV-Seddik-final-version123.pdf"
+
+  items:
+    - title: "Jr. Data Scientist"
+      company: "BallSquad"
+      duration: "April  2022 - Today"
+
+    - title: "Hosting at the Racing Club De Strasbourg Stadium"
+      company: "My Hostess and Racing Club"
+      duration: "August 2021 - February 2022"
+
+    - title: "Tutor in Statistics and Econometrics"
+      company: "University of Strasbourg"
+      duration: "January 2021 - May  2021"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Strasbourg"
+      year: "2020-2022"
+      degree: "Master of Data Science For The Economy And Business"
+
+    - university: "University of Strasbourg"
+      year: "2017-2020"
+      degree: "Bachelor of Economics And Management"
+      
+    
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Crypto currency stratgy simulator" 
+      description: "This application allows the user to decide which strategy to adopt for his investment, based on the optimization and simulation of these strategies with a given crypto money."
+     
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://lucasjeanneau.shinyapps.io/CryptoDashboard/"
+      
+      image:
+        x: "img/works/sim.jpg"
+        _2x: "img/works/sim.jpg"
+      is_even: true
+
+    - title: "BallSquad Dashbord"
+      description: "This application helps Marketing team and CEO to see certain economic aspects in a more obvious way, such as off-system installations and the potential to integrate them, but also the market penetration rate."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://ballsquadbit.shinyapps.io/shinnyapp/"
+      image:
+        x: "img/works/BallSquad.jpg"
+        _2x: "img/works/BallSquad.jpg"
+      is_even: false 
+      
+    - title: "Automated Trading Bot"
+      description: "It is a robot that is connected with a crypto currency platform and invistisment. It is equipped with an automated investment strategy that can be selected through various dashboard or manual simulations."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go to the project's Github repository"
+        URL: "https://github.com/medseddik1999/Trendig_BOT_simulation" 
+      image:
+        x: "img/works/Trading-Bot-with-Python.jpg"
+        _2x: "img/works/Trading-Bot-with-Python.jpg"
+      is_even: true  
+      
+    - title: "Machine Learning Projects"
+      description: "I like machine learning but even more when it is applied to business and finance, I have two interesting machine learning projects. The first one is an application that detects the martial status of a consumer from his purchases, and the second one is the analysis of the financial sentiment of the news with NLP techniques ."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go to the project's Github repository"
+        URL: "https://github.com/medseddik1999/MyMachineLearningProjects" 
+      image:
+        x: "img/works/MLMLML.jpg"
+        _2x: "img/works/MLMLML.jpg"
+      is_even: False  
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact Abdelhakim Mohamed"
+    
+  image:
+    x: "img/who-am-i/contact_im.jpg"
+    _2x: "img/who-am-i/contact_im.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:midou.ik.1999@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "+33 658 09 23 06"
+  email:
+    title: "Email"
+    email: '<a href="mailto:midou.ik.1999@gmail.com">midou.ik.1999@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "67200 , Strasbourg , France"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
